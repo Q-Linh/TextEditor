@@ -177,7 +177,7 @@ class PageContainer extends React.Component {
               HTML
             </button>
             <button className="btJS" onClick={this.exportJS}>
-              JS
+              JSON
             </button>
           </div>
         </div>
@@ -186,7 +186,7 @@ class PageContainer extends React.Component {
           <textarea onChange={this.updateHTML} value={this.state.convertedHTML}/>
         </div>
         <div className="flexArea2">
-          <p>JS:</p>
+          <p>JSON:</p>
           <textarea onChange={this.updateJS} value={this.state.convertedJS}/>
         </div>
       </div>
